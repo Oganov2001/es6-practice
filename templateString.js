@@ -1,7 +1,5 @@
 function getMessage() {
-  const year = new Date().getFullYear();
-
-  return `The Year is ${year}`;
+  return `The Year is ${new Date().getFullYear()}`;
 }
 
 console.log(getMessage());
