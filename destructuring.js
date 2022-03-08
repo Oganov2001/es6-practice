@@ -29,3 +29,17 @@ const Google = {
 
 const { locations: [ location ] } = Google;
 console.log(location);
+
+console.log('---');
+
+const points = [
+  [4, 5],
+  [10, 1],
+  [0, 40]
+];
+
+const result = points.map(([ x, y ]) => {
+  return { x, y };
+});
+
+console.log(result);
